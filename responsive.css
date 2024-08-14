@@ -1,45 +1,48 @@
 @media (max-device-width: 767px) {
-    .container{
+       .container{
         padding: 0 16px;
-    }
-    .grid_container{
+       }
+       .grid_container{
         padding: 0 16px;
-    }
+       }
     
-    .img_common{
+       .img_common{
         gap: 3rem;
         grid-template-columns: repeat(1, minmax(0, 1fr));
-    }
+       }
+       .join_text{
+        font-size: 42px;
+       }
 
-    .hero_section{
+       .hero_section{
         padding: 60px 16px;
         position: relative;
         right: 0px;
     
         & h1{
             font-size: 40px;   
-        }
+          }
     
-        & div{
+         & div{
             padding: 16px 0;
             font-size: 20px;
-        }
-    }
-    .track_section{
-        .bg_track{
+         }
+          }
+         .track_section{
+         .bg_track{
           left: 0;
           top: 0;
           width: 100%;
         }
-      }
-      .left_section{
-      margin-top: 0px;
+       }
+       .left_section{
+       margin-top: 0px;
         .track_h2{
           font-size: 40px;
         }
-      }
+       }
     
-      .img_grid{
+       .img_grid{
         gap:16px;
         padding-top: 30px;
         padding-left: 30px;
@@ -48,10 +51,10 @@
           width: 130px;
           gap: 16px;
          
-        }
-      }
+          }
+         }
     
-      .right_section{
+       .right_section{
         & h3{
           font-size: 24px;
           padding-right: 0rem;
@@ -66,39 +69,41 @@
           }
          
         }
-      }
-      .company_section{
+       }
+       .company_section{
         margin-top: 60px;
        }
-
+        
        
-  .join_section{
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    margin: 80px auto;
-    border-radius: 24px;
+        .join_section{
+          grid-template-columns: repeat(1, minmax(0, 1fr));
+          margin: 80px auto;
+          border-radius: 24px;
+         & img{
+          width: 100%;
+         }
+          
+        }
 
-    & img{
-        width: 100%;
-    }
-  }
 
-  .join{
-    margin: 16px;
 
-    & h2{
-      font-size: 40px;
-    }
-    .apple_logo{
-      gap:12px;
-      padding: 12px 24px;
-      border-radius: 14px;
+        .join{
+          margin: 16px;}
 
-      & h4{
-        font-size: 16px;
       }
-      & img{
-        width: 20px;
-      }
-    }
-  }
-}
+      .apple_logo{
+        gap:12px;
+        padding: 12px 24px;
+        border-radius: 14px;
+  
+        & h4{
+          font-size: 16px;
+        }
+        & img{
+          width: 20px;
+        }
+        }
+      
+  
+    
+     

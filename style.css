@@ -223,12 +223,14 @@ body{
 
   .target_section{
     padding: 140px 0;
-    & img{
-      width: 100%;
-    }
+    
+  }
+  .target_img{
+    width: 100%;
   }
   .target_details{
     padding: 40px 0;
+
 
     & h2{
       font-size: 65px;
@@ -277,9 +279,7 @@ body{
     gap: 24px;
     margin: 0% auto;
 
-    & h2{
-      font-size: 68px;
-    }
+     
     .apple_logo{
       background: #130F49;
       & h4{
@@ -287,7 +287,9 @@ body{
       }
     }
   }
-
+    .join_text{
+      font-size: 85px;
+    }
 
   .copyright_section{
     text-align: center;
