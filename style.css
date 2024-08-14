@@ -1,0 +1,296 @@
+/*==================================
+  Common css Start
+  ===================================*/
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    max-width: 960px;
+    width: 96%;
+    margin: 0 auto;
+}
+.grid_container{
+  max-width: 1240px;
+  margin: 0% auto;
+}
+  .img_common{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 5rem;
+    align-items: center;
+  }
+/*==================================
+  Navbar css Start
+  ===================================*/
+
+  .navbar_menu{
+    max-width: 93%;
+    display: flex;
+    gap: 60px;
+    padding: 20px;
+    color:#0b0736;
+    & h3{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    & div{
+        display: flex;
+        gap: 8px;
+        padding: 8px;
+        border: 1px solid gainsboro;
+    }
+
+  }
+
+  /*==================================
+    Hero css Start
+  ===================================*/
+
+  .banner_section{
+    width: 50dvw;
+    position: absolute;
+    right: 0; 
+    top: 0; 
+    z-index: -999;
+  }
+  .hero_section{
+    color:#0b0736;
+    padding: 100px 0px;
+
+    & h1{
+      font-size: 82px;
+      font-weight: bold;
+    }
+    & p{
+      font-size: 25px;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      padding: 30px 0;
+      gap:8px;
+    }
+    .btn{
+      color: white;
+      border: none;
+      padding: 18px;
+      font-size: 20px;
+      font-weight: 600;
+      background: #0B0736;
+      border-radius: 12px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s;
+      outline: none;
+    }
+    .btn:hover{
+      color: white;
+      background: #180bad;
+      box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2), 0 6px 16px 0 rgba(0,0,0,0.19);
+    }
+  }
+
+ /*==================================
+    target css Start
+  ===================================*/
+
+  .target_setion{
+    padding: 140px 0px;
+    margin-bottom: 60px;
+  
+    
+    & img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .details_section{
+    & h3{
+      font-size: 58px;
+      font-weight: 550;
+    }
+    & .details_text{
+      font-size: 20px;
+      font-weight: 400;
+      color: gray;
+      padding: 30px 0;
+    }
+  }
+  .apple_logo{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    background: #cce8fd;
+    gap: 16px;
+    padding: 16px 28px;
+    border-radius: 20px;
+   
+   & img{
+    width: 25px;
+   } 
+   
+   & p{
+    color: #9393c4;
+    font-size: 12px;
+    
+  }
+
+  & h4{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  }
+
+   /*==================================
+    track css Start
+  ===================================*/
+  
+  .track_section{
+    position: relative;
+
+    .bg_track{
+      position: absolute;
+      z-index: -999;
+      left: 0;
+      top: 10%;
+    }
+  }
+  .left_section{
+  margin-top: -80px;
+    .track_h2{
+      font-size: 80px;
+    }
+  }
+
+  .img_grid{
+    display: flex;
+    gap:20px;
+    padding-top: 80px;
+    padding-left: 80px;
+
+    & div{
+      width: 150px;
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+     
+    }
+    & div:nth-child(2){
+      margin-top: 40px ;
+    }
+  }
+
+  .right_section{
+    & h3{
+      font-size: 40px;
+      color: #9393c4;
+      font-weight: 400;
+      padding-right: 8rem;
+      margin-top: -125px;
+    }
+    .right_details{
+      display: flex;
+      align-items: start;
+      gap:30px;
+      margin-top: 60px;
+
+      & div{
+        padding-top: 20px;
+      }
+      & h2{
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      & p{
+        font-size: 20px;
+        color: #9393c4;
+        padding-top: 20px;
+        max-width: 300px;
+      }
+    }
+  }
+
+   /*==================================
+    target css Start
+  ===================================*/
+
+  .target_section{
+    padding: 140px 0;
+    & img{
+      width: 100%;
+    }
+  }
+  .target_details{
+    padding: 40px 0;
+
+    & h2{
+      font-size: 65px;
+      font-weight: 600;
+    }
+    .text_details{
+      color: gray;
+      font-size: 24px;
+      padding: 40px 0;
+      
+    }
+  }
+
+     /*==================================
+    company css Start
+  ===================================*/
+ 
+  .company_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & img{
+      width: 100%;
+    }
+   }
+
+   /*==================================
+    join css Start
+  ===================================*/
+
+  .join_section{
+    width: 90%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 120px auto;
+    border-radius: 50px;
+    background-color: #d9f4ff;
+  }
+
+  .join{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    margin: 0% auto;
+
+    & h2{
+      font-size: 68px;
+    }
+    .apple_logo{
+      background: #130F49;
+      & h4{
+        color: #fff;
+      }
+    }
+  }
+
+
+  .copyright_section{
+    text-align: center;
+    color: #9393c4;
+    margin-bottom: 20px;
+  }

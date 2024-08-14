@@ -1,0 +1,104 @@
+@media (max-device-width: 767px) {
+    .container{
+        padding: 0 16px;
+    }
+    .grid_container{
+        padding: 0 16px;
+    }
+    
+    .img_common{
+        gap: 3rem;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .hero_section{
+        padding: 60px 16px;
+        position: relative;
+        right: 0px;
+    
+        & h1{
+            font-size: 40px;   
+        }
+    
+        & div{
+            padding: 16px 0;
+            font-size: 20px;
+        }
+    }
+    .track_section{
+        .bg_track{
+          left: 0;
+          top: 0;
+          width: 100%;
+        }
+      }
+      .left_section{
+      margin-top: 0px;
+        .track_h2{
+          font-size: 40px;
+        }
+      }
+    
+      .img_grid{
+        gap:16px;
+        padding-top: 30px;
+        padding-left: 30px;
+    
+        & div{
+          width: 130px;
+          gap: 16px;
+         
+        }
+      }
+    
+      .right_section{
+        & h3{
+          font-size: 24px;
+          padding-right: 0rem;
+          margin-top: 0px;
+        }
+        .right_details{
+          gap:16px;
+          margin-top: 25px;
+    
+          & div{
+            padding-top: 16px;
+          }
+         
+        }
+      }
+      .company_section{
+        margin-top: 60px;
+       }
+
+       
+  .join_section{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin: 80px auto;
+    border-radius: 24px;
+
+    & img{
+        width: 100%;
+    }
+  }
+
+  .join{
+    margin: 16px;
+
+    & h2{
+      font-size: 40px;
+    }
+    .apple_logo{
+      gap:12px;
+      padding: 12px 24px;
+      border-radius: 14px;
+
+      & h4{
+        font-size: 16px;
+      }
+      & img{
+        width: 20px;
+      }
+    }
+  }
+}
